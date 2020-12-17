@@ -1,5 +1,5 @@
 #include <iostream>
-#include <windows.h>
+#include <stdlib.h>
 #include <assert.h>
 
 using namespace std;
@@ -121,11 +121,11 @@ int main()
 
   IntArray array3, array4;
 
-  cout << "array£º" << array.size() << endl;
+  cout << "array:" << array.size() << endl;
 
-  cout << "array2[7]£º" << array2[7] << endl;
+  cout << "array2[7]:" << array2[7] << endl;
 
-  cout << "find()£º" << array2.find(7) << endl;
+  cout << "find():" << array2.find(7) << endl;
 
   if (array3 == array4)
   {
@@ -135,6 +135,4 @@ int main()
   {
     cout << "array3 no~ equal with array4." << endl;
   }
-
-  system("pause");
 }

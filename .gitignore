@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 /dist
+/build
 
 # local env files
 .env.local
@@ -31,3 +32,7 @@ yarn-error.log*
 # out file
 
 *.out
+
+*.out.dSYM/*
+
+*.dSYM/*
